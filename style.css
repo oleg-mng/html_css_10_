@@ -567,6 +567,69 @@
 
 }
 
+.footer_email {
+    position: absolute;
+    top: 230px;
+    left: 900px;
+
+}
+
+.cirle_grey {
+    width: 322px;
+    height: 50px;
+    border: 1px solid #E1E1E1;
+    border-radius: 25px;
+    background-color: #E1E1E1;
+    position: relative;
+}
+
+.rec_rose {
+    position: absolute;
+    top: 0px;
+    left: 230px;
+    width: 100px;
+    height: 50px;
+    border: 1px solid #E05C6E;
+    background-color: #E05C6E;
+}
+
+.circle_rose {
+    position: absolute;
+    top: 0px;
+    left: 305px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #E05C6E;
+    background-color: #E05C6E;
+    border-radius: 25px;
+}
+
+.enter_your_email {
+    position: absolute;
+    top: 17px;
+    left: 20px;
+    color: #222224;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer_subscribe {
+    position: absolute;
+    top: 17px;
+    left: 260px;
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
 
 @media (min-width:768px) and (max-width:1024px) {
     .img {
@@ -816,7 +879,7 @@
     }
 
     .footer_block_1 {
-       
+
         height: 600px;
     }
 
@@ -828,7 +891,7 @@
 
     .footer_block_2_back {
         height: 550px;
-        
+
     }
 
     .footer_block_2_foto {
@@ -855,7 +918,14 @@
     .footer_block_2_text_right_down {
         width: 350px;
         position: absolute;
-        top: 300px;
+        top: 305px;
+        left: 10px;
+
+    }
+
+    .footer_email {
+        position: absolute;
+        top: 350px;
         left: 10px;
 
     }
