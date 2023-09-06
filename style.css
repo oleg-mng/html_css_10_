@@ -509,6 +509,7 @@
 .footer_block_2_back {
     width: 100%;
     opacity: 50%;
+    height: 300px;
     position: absolute;
 }
 
@@ -631,7 +632,8 @@
 }
 
 .footer_3 {
-    padding-top: 324px;
+    padding-top: 300px;
+    height: 443px;
     position: relative;
 }
 
@@ -639,13 +641,11 @@
     background-color: #222224;
     height: 79px;
 
-
-
 }
 
 .footer_block_3_copy {
     position: absolute;
-    top: 355px;
+    top: 330px;
     left: 155px;
     color: #FBFBFB;
     font-family: Lato;
@@ -667,13 +667,13 @@
     height: 32px;
     background-color: #FFF;
     position: absolute;
-    top: -8px;
+    top: -27px;
     left: 550px;
 }
 
 .footer_3_logo_1_rec_logo {
     position: absolute;
-    top: -1px;
+    top: -21px;
     left: 560px;
 }
 
@@ -689,15 +689,23 @@
     height: 32px;
     background-color: #FFF;
     position: absolute;
-    top: -8px;
+    top: -27px;
     left: 550px;
 }
 
 .footer_3_logo_2_rec_logo {
     position: absolute;
-    top: -1px;
+    top: -21px;
     left: 558px;
-    background-color: #000;
+    background-color: black;
+}
+
+.footer_3_logo_2:hover .footer_3_logo_2_rec {
+    background-color: #F16D7F;
+}
+
+.footer_3_logo_2:hover .footer_3_logo_2_rec_logo {
+    background-color: #F16D7F;
 }
 
 .footer_3_logo_3 {
@@ -712,13 +720,13 @@
     height: 32px;
     background-color: #FFF;
     position: absolute;
-    top: -8px;
+    top: -27px;
     left: 595px;
 }
 
 .footer_3_logo_3_rec_logo {
     position: absolute;
-    top: -1px;
+    top: -21px;
     left: 605px;
     /* background-color: #000; */
 }
@@ -735,13 +743,13 @@
     height: 32px;
     background-color: #FFF;
     position: absolute;
-    top: -8px;
+    top: -27px;
     left: 640px;
 }
 
 .footer_3_logo_4_rec_logo {
     position: absolute;
-    top: -1px;
+    top: -21px;
     left: 648px;
     /* background-color: #000; */
 }
@@ -1007,7 +1015,7 @@
     }
 
     .footer_block_2_back {
-        height: 550px;
+        height: 500px;
 
     }
 
@@ -1094,8 +1102,12 @@
         position: absolute;
         top: 355px;
         left: 395px;
-        color: white;
+        /* color: white; */
     }
+
+    /* .footer_3_logo_2:hover{
+        color:#F16D7F;
+    } */
 
     .footer_3_logo_2_rec {
         width: 32px;
@@ -1106,12 +1118,20 @@
         left: -250px;
     }
 
+    .footer_3_logo_2_rec:hover {
+        color: #F16D7F;
+    }
+
     .footer_3_logo_2_rec_logo {
         position: absolute;
         top: 246px;
         left: -242px;
         background-color: #000;
     }
+
+    /* .footer_3_logo_2_rec_logo:hover{
+        background-color: #F16D7F;
+    } */
 
     .footer_3_logo_3 {
         position: absolute;
