@@ -630,6 +630,123 @@
 
 }
 
+.footer_3 {
+    padding-top: 324px;
+    position: relative;
+}
+
+.footer_block_3_back {
+    background-color: #222224;
+    height: 79px;
+
+
+
+}
+
+.footer_block_3_copy {
+    position: absolute;
+    top: 355px;
+    left: 155px;
+    color: #FBFBFB;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer_3_logo_1 {
+    position: absolute;
+    top: 355px;
+    left: 350px;
+    color: white;
+}
+
+.footer_3_logo_1_rec {
+    width: 32px;
+    height: 32px;
+    background-color: #FFF;
+    position: absolute;
+    top: -8px;
+    left: 550px;
+}
+
+.footer_3_logo_1_rec_logo {
+    position: absolute;
+    top: -1px;
+    left: 560px;
+}
+
+.footer_3_logo_2 {
+    position: absolute;
+    top: 355px;
+    left: 395px;
+    color: white;
+}
+
+.footer_3_logo_2_rec {
+    width: 32px;
+    height: 32px;
+    background-color: #FFF;
+    position: absolute;
+    top: -8px;
+    left: 550px;
+}
+
+.footer_3_logo_2_rec_logo {
+    position: absolute;
+    top: -1px;
+    left: 558px;
+    background-color: #000;
+}
+
+.footer_3_logo_3 {
+    position: absolute;
+    top: 355px;
+    left: 395px;
+    color: white;
+}
+
+.footer_3_logo_3_rec {
+    width: 32px;
+    height: 32px;
+    background-color: #FFF;
+    position: absolute;
+    top: -8px;
+    left: 595px;
+}
+
+.footer_3_logo_3_rec_logo {
+    position: absolute;
+    top: -1px;
+    left: 605px;
+    /* background-color: #000; */
+}
+
+.footer_3_logo_4 {
+    position: absolute;
+    top: 355px;
+    left: 396px;
+    color: white;
+}
+
+.footer_3_logo_4_rec {
+    width: 32px;
+    height: 32px;
+    background-color: #FFF;
+    position: absolute;
+    top: -8px;
+    left: 640px;
+}
+
+.footer_3_logo_4_rec_logo {
+    position: absolute;
+    top: -1px;
+    left: 648px;
+    /* background-color: #000; */
+}
+
+
 
 @media (min-width:768px) and (max-width:1024px) {
     .img {
@@ -920,13 +1037,125 @@
         position: absolute;
         top: 305px;
         left: 10px;
-
     }
 
     .footer_email {
         position: absolute;
         top: 350px;
         left: 10px;
+    }
+
+    .footer_3 {
+        padding-top: 550px;
+        position: relative;
+    }
+
+    .footer_block_3_copy {
+        position: absolute;
+        top: 660px;
+        left: 70px;
+    }
+
+    .footer_block_3_back {
+        height: 143px;
+    }
+
+    .footer_3_logo_1 {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+
+
+    .footer_3_logo_1 {
+        position: absolute;
+        top: 355px;
+        left: 350px;
+        color: white;
+    }
+
+    .footer_3_logo_1_rec {
+        width: 32px;
+        height: 32px;
+        background-color: #FFF;
+        position: absolute;
+        top: 238px;
+        left: -250px;
+    }
+
+    .footer_3_logo_1_rec_logo {
+        position: absolute;
+        top: 246px;
+        left: -240px;
+    }
+
+
+    .footer_3_logo_2 {
+        position: absolute;
+        top: 355px;
+        left: 395px;
+        color: white;
+    }
+
+    .footer_3_logo_2_rec {
+        width: 32px;
+        height: 32px;
+        background-color: #FFF;
+        position: absolute;
+        top: 238px;
+        left: -250px;
+    }
+
+    .footer_3_logo_2_rec_logo {
+        position: absolute;
+        top: 246px;
+        left: -242px;
+        background-color: #000;
+    }
+
+    .footer_3_logo_3 {
+        position: absolute;
+        top: 355px;
+        left: 395px;
+        color: white;
+    }
+
+    .footer_3_logo_3_rec {
+        width: 32px;
+        height: 32px;
+        background-color: #FFF;
+        position: absolute;
+        top: 238px;
+        left: -206px
+    }
+
+    .footer_3_logo_3_rec_logo {
+        position: absolute;
+        top: 246px;
+        left: -198px;
+
+    }
+
+    .footer_3_logo_4 {
+        position: absolute;
+        top: 355px;
+        left: 395px;
+        color: white;
+    }
+
+    .footer_3_logo_4_rec {
+        width: 32px;
+        height: 32px;
+        background-color: #FFF;
+        position: absolute;
+        top: 238px;
+        left: -162px
+    }
+
+    .footer_3_logo_4_rec_logo {
+        position: absolute;
+        top: 246px;
+        left: -154px;
 
     }
 
